@@ -139,3 +139,32 @@ img {
         max-height: 200px;
     }
 }
+
+/* phone size */
+@media screen and (max-width: 480px) {
+    .row{
+        flex-wrap: wrap;
+    }
+
+    .col{
+        width: 100% !important; 
+    }/* anche qui mi sembra un uso onesto dai */
+
+    .row > * + *{
+        margin-top: 1rem;
+    } /* volevo provare il famigerato lobotomized owl */
+
+    .why-us{
+        background-color: black;
+        margin: 0;
+        padding: 3rem 0px;
+    }
+
+    .steps {
+        margin-bottom: 0;
+    }
+
+    .why-us img{
+        margin-bottom: 2rem;
+    }
+}
