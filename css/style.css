@@ -127,3 +127,15 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+
+ /* bonus ma che mi risolve anche la dimensione tablet */
+@media screen and (max-width: 1160px) {
+    .container{
+        max-width: 1140px;
+        width: 100%;
+    }
+
+    .lessons .col img, .steps .col img{
+        max-height: 200px;
+    }
+}
