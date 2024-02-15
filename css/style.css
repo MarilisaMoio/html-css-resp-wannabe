@@ -133,10 +133,6 @@ img {
     .container{
         width: 100%;
     }
-
-    .lessons .col img, .steps .col img{
-        max-height: 200px;
-    }
 }
 
 /* phone size */
